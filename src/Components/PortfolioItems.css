@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Work+Sans:200');
+
+.PortfolioItems {
+    background-color: rgb(138, 79, 187);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    line-height: 250%;
+    overflow: hidden;
+}
+
+.PortfolioLink {
+    display: inline-block;
+    text-align: center;
+    margin: 0 25px;
+    text-decoration: none;
+}
+
+.PortfolioImage {
+    width: 250px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    filter: brightness(.6);
+    border-radius: 15px;
+    border: peachpuff 5px solid;
+    margin: 15px 0 0 0;
+}
+
+.PortfolioImage:hover {
+    filter: brightness(1)
+}
+
+.PortfolioLink h4 {
+    color: rgb(238, 181, 131);
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Raleway', sans;
+    margin: 0px;
+    
+}
+
+.PortfolioLink p {
+    color: rgb(130, 165, 230);
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Raleway', sans;
+    margin: 0px;
+    height: 35px;
+    
+}
+
+.VCS {
+    background-image: url(../Assets/vcs.png);
+}
+
+.MK {
+    background-image: url(../Assets/mk.png);
+}
+
+.DB {
+    background-image: url(../Assets/db.png);
+}
+
+.DDD {
+    background-image: url(../Assets/ddd.png);
+}
+
